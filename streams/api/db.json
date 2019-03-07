@@ -1,0 +1,30 @@
+{
+  "streams": [
+    {
+      "title": "my stream",
+      "description": "a great one",
+      "id": 1
+    },
+    {
+      "title": "another stream",
+      "description": "a better one",
+      "id": 2
+    },
+    {
+      "title": "some stream",
+      "description": "new edited stream",
+      "id": 3
+    },
+    {
+      "title": "reused form edited and tested",
+      "description": "testing",
+      "id": 5
+    },
+    {
+      "title": "sdfsdfsdf",
+      "description": "sdfsdf",
+      "userId": "110570116903252707627",
+      "id": 6
+    }
+  ]
+}

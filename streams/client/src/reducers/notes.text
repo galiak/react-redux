@@ -1,0 +1,40 @@
+// sample code
+
+// a reducer with array-based approach
+const streamReducer = (state = [], action) => {
+  switch (action.type) {
+    case EDIT_STREAM:
+      return state.map(stream => {
+        if (stream.id === action.payload.id) {
+          return action.payload;
+        } else {
+          return stream;
+        }
+      })
+
+    default:
+      return state;
+  }
+
+  // a reducer with object-based approach
+  const streamReducer = (state = {}, action) => {
+    switch (action.type) {
+      case EDIT_STREAM:
+        // const newState = {...state};
+        // newState[action.payload.id] = action.payload;
+        // return newState;
+
+        // using key interpulation
+        return {...state, [action.payload.id]: action.payload}
+      default:
+        return state;
+    }
+  }
+
+
+// key interpulation
+const animalSounds = {cat: 'mewo', dog: 'bark'}
+const animal = 'lion'
+const sound = 'roar'
+
+{...animalSounds, [animal]: sound} // {cat: 'mewo', dog: 'bark', lion: 'roar'}
