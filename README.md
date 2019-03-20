@@ -1,7 +1,7 @@
 # react-redux
 Practicing react &amp; redux
 
-# modules
+## modules
 - create-react-app
 - lodash
 - json-server
@@ -16,7 +16,7 @@ Practicing react &amp; redux
 - react-router-dom
 - react-router-redux
 
-# services & api
+## services & api
 - semantic-ui.com
 - unsplash.com
 - youtube
